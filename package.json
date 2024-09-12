@@ -1,10 +1,26 @@
 {
-  "name": "${PROJECT_NAME}",
+  "name": "3_make_your_burger",
   "version": "1.0.0",
+  "private": true,
   "description": "",
-  "main": "index.js",
   "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "private": true
+  "main": "index.js",
+  "dependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
+    "core-js": "^3.8.3",
+    "vue": "^3.2.13",
+    "vue-router": "^4.0.3"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-service": "~5.0.0"
+  },
+  "_id": "3_make_your_burger@1.0.0",
+  "readme": "ERROR: No README data found!"
 }
