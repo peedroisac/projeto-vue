@@ -24,7 +24,7 @@ export default {
     justify-content: flex-end;
     align-items: center;
   }
-  #logo {
+  #nav #logo-url {
     margin: auto;
     margin-left: 0;
   }
